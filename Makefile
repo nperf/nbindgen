@@ -7,7 +7,7 @@ TARGET = bindgen
 all: $(TARGET)
 
 $(TARGET): $(TARGET).cc
-	$(CXX) $(LDFLAGS) $(CPPFLAGS) -o $(TARGET) $(TARGET).cc
+  $(CXX) $(LDFLAGS) $(CPPFLAGS) -o $(TARGET) $(TARGET).cc
 
 clean:
-	$(RM) $(TARGET)
+  $(RM) $(TARGET)
